@@ -230,7 +230,7 @@ public class SocketClient {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-    	//sc.send("{\"c\":1,\"lo\":8720529,\"pwd\":\"pOzf5ut\",\"price_mode\":0,\"locale\":\"en\"}");
+    	sc.send("{\"c\":1,\"lo\":8720529,\"pwd\":\"pOzf5ut\",\"price_mode\":0,\"locale\":\"en\"}");
     	
     	try {
 			Thread.sleep(1000);
@@ -240,7 +240,7 @@ public class SocketClient {
 		}
     	
     	System.out.println("101");
-    	sc.send("{\"c\":101,\"locale\":\"tw\"}");
+    	sc.send("{\"c\":101,\"locale\":\"jp\"}");
     	
     	System.out.println("5");
     	sc.send("{\"c\":5,\"cmd\":1,\"a\":0,\"s\":\"BTCEURbo\",\"sec\":30,\"key\":\"A1234567\"}");
