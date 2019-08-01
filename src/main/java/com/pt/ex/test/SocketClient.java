@@ -238,9 +238,10 @@ public class SocketClient {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+//    	
+//    	System.out.println("101");
+//    	sc.send("{\"c\":101,\"locale\":\"jp\"}");
     	
-    	System.out.println("101");
-    	sc.send("{\"c\":101,\"locale\":\"jp\"}");
     	
     	System.out.println("5");
     	sc.send("{\"c\":5,\"cmd\":1,\"a\":0,\"s\":\"BTCEURbo\",\"sec\":30,\"key\":\"A1234567\"}");
