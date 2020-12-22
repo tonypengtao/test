@@ -12,6 +12,7 @@
 	<version>0.0.1-SNAPSHOT</version>
 
 	<dependencies>
+	<!-- add 1234 -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
