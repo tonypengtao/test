@@ -9,6 +9,7 @@
 	<modules>
 		<module>simple-test</module>
 		<module>hive-functions</module>
+		<module>mapreduce-test</module>
 	</modules>
 	
 	<build>
