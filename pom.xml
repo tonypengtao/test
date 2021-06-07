@@ -10,6 +10,7 @@
 		<module>simple-test</module>
 		<module>hive-functions</module>
 		<module>mapreduce-test</module>
+		<module>dw-data-generator</module>
 	</modules>
 	
 	<build>
