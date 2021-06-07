@@ -43,7 +43,10 @@ public class Json2VelocityTest {
 	        ctx.put("jo", jo);
 	        
 	        StringWriter writer = new StringWriter();
-	        ve.evaluate(ctx, writer, "", content);
+	        
+//	        ve.evaluate(ctx, writer, "", content);
+	        Velocity.evaluate(ctx, writer, "", content);
+	        
 	        String result = writer.toString();
 		}
 		
