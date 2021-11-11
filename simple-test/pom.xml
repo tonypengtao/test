@@ -187,42 +187,12 @@
 			<artifactId>okhttp</artifactId>
 			<version>3.8.1</version>
 		</dependency>
-		
+
 		<dependency>
-        <artifactId>asm</artifactId>
-        <groupId>org.ow2.asm</groupId>
-        <version>5.2</version>
-      </dependency>
-
-      <dependency>
-        <artifactId>asm-tree</artifactId>
-        <groupId>org.ow2.asm</groupId>
-        <version>5.2</version>
-      </dependency>
-
-      <dependency>
-        <artifactId>asm-analysis</artifactId>
-        <groupId>org.ow2.asm</groupId>
-        <version>5.2</version>
-      </dependency>
-
-      <dependency>
-        <artifactId>asm-commons</artifactId>
-        <groupId>org.ow2.asm</groupId>
-        <version>5.2</version>
-      </dependency>
-
-      <dependency>
-        <artifactId>asm-util</artifactId>
-        <groupId>org.ow2.asm</groupId>
-        <version>5.2</version>
-      </dependency>
-
-      <dependency>
-        <artifactId>asm-xml</artifactId>
-        <groupId>org.ow2.asm</groupId>
-        <version>5.2</version>
-      </dependency>
+			<groupId>cglib</groupId>
+			<artifactId>cglib</artifactId>
+			<version>3.3.0</version>
+		</dependency>
 
 	</dependencies>
 
